@@ -1,0 +1,9 @@
+{
+  "baseline": "Ward_RFM",
+  "reduced": "Ward_RF_Without_M",
+  "k_fixed": 2,
+  "same_shares": 489,
+  "adjusted_rand_index": 0.7896445073636957,
+  "recency_transform": "log1p",
+  "scaler": "refitted StandardScaler on R and F"
+}
