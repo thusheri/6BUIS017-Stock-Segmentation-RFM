@@ -1,0 +1,5 @@
+FeatureSet,Algorithm,SelectedK,Silhouette,MinimumClusterSize,FallbackUsed
+RiskReturn,Ward,5,0.3119723849639056,36,False
+RiskReturn,KMeans,2,0.385759157376117,144,False
+RFM,Ward,2,0.40299569445409666,96,False
+RFM,KMeans,2,0.4156511672193751,102,False

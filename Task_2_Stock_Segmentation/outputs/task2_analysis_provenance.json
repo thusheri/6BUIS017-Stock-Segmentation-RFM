@@ -1,0 +1,77 @@
+{
+  "created_utc": "2026-11-23T06:52:54.990164+00:00",
+  "source_zip": "task1_strengthened_outputs.zip",
+  "source_zip_sha256": "4f9756a8325e79b7503ae2ccb087458f11fadb9951dc2546d78a417b045699d1",
+  "source_retrieval": "2026-11-22T06:39:18.296805+00:00",
+  "task1_metadata": {
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "yfinance": "1.8.0",
+    "requests": "2.32.4",
+    "matplotlib": "3.11.2",
+    "scipy": "1.18.1",
+    "python": "3.13.18",
+    "retrieval_utc": "2026-11-22T06:38:54.959112+00:00",
+    "start_inclusive": "2021-01-01",
+    "end_exclusive": "2025-01-01",
+    "benchmark": "^GSPC",
+    "daily_coverage_threshold": 0.95,
+    "min_aligned_weekly_returns": 52
+  },
+  "python_version": "3.13.18",
+  "pandas_version": "2.2.3",
+  "numpy_version": "2.4.6",
+  "sklearn_version": "1.6.1",
+  "scipy_version": "1.16.3",
+  "random_seed": 42,
+  "k_candidates": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "minimum_cluster_size": 10,
+  "kmeans_n_init": 30,
+  "log_recency": true,
+  "share_count": 489,
+  "selected_cluster_counts": [
+    {
+      "FeatureSet": "RiskReturn",
+      "Algorithm": "Ward",
+      "SelectedK": 5,
+      "Silhouette": 0.3119723849639056,
+      "MinimumClusterSize": 36,
+      "FallbackUsed": false
+    },
+    {
+      "FeatureSet": "RiskReturn",
+      "Algorithm": "KMeans",
+      "SelectedK": 2,
+      "Silhouette": 0.385759157376117,
+      "MinimumClusterSize": 144,
+      "FallbackUsed": false
+    },
+    {
+      "FeatureSet": "RFM",
+      "Algorithm": "Ward",
+      "SelectedK": 2,
+      "Silhouette": 0.40299569445409666,
+      "MinimumClusterSize": 96,
+      "FallbackUsed": false
+    },
+    {
+      "FeatureSet": "RFM",
+      "Algorithm": "KMeans",
+      "SelectedK": 2,
+      "Silhouette": 0.4156511672193751,
+      "MinimumClusterSize": 102,
+      "FallbackUsed": false
+    }
+  ],
+  "ari_removing_monetary": 0.7896445073636957,
+  "pca_explained_pct": 77.2589828626091,
+  "warning": "Descriptive clusters only; future returns and diversification have not been tested"
+}
