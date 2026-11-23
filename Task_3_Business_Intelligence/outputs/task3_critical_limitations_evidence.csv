@@ -1,0 +1,8 @@
+Issue,Evidence,Interpretation
+Survivorship / membership selection,2026 constituent snapshot on 2021–24 data,Not a historical 2021 index-member cohort
+Zero-volume anomaly and incomplete histories,Task 1 SW/FERG audit and coverage exclusions,Check vendor data; alternative masking changes some return features
+Price adjustments and corporate actions,Adjusted weekly returns versus raw close × volume,Verify consistent adjustment conventions for each measure
+Historical return dependencies,Pairwise weekly-return correlation summaries,Beta differences alone cannot establish diversification
+Correlation among activity features,"R, F and log1p(M) correlations and R/F-only ARI",Standardisation does not remove dependence
+Traded-value liquidity proxy,Sum of Close × Volume,"Does not measure spreads, market depth or price impact"
+Descriptive model limitations,No held-out future-return test,Cluster membership does not predict future performance

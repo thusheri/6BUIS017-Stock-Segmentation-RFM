@@ -1,0 +1,12 @@
+GICS Sector,0,1,2,3,4
+Communication Services,0,9,5,0,6
+Consumer Discretionary,4,20,13,10,0
+Consumer Staples,0,2,5,0,25
+Energy,4,16,0,0,1
+Financials,4,40,12,5,13
+Health Care,1,9,22,4,22
+Industrials,7,35,28,4,5
+Information Technology,13,25,13,23,0
+Materials,1,7,11,2,3
+Real Estate,1,11,17,0,1
+Utilities,1,1,5,0,23

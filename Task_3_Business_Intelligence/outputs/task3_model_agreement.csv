@@ -1,0 +1,5 @@
+Solution1,Solution2,AdjustedRandIndex
+Ward_Risk,KMeans_Risk,0.1483429998257992
+Ward_RFM,KMeans_RFM,0.890425552892172
+Ward_Risk,Ward_RFM,0.006230852160811
+KMeans_Risk,KMeans_RFM,0.0364619722845786

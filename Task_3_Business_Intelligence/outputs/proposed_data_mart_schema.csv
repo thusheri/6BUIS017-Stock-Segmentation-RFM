@@ -1,0 +1,11 @@
+Entity,Grain_or_PK,Keys,Attributes_or_Measures
+DimDate,date_key,date_key,"Calendar attributes: date, day, week-ending Friday, month, quarter, year"
+DimShare,share_key,share_key; sector_key,"Ticker, security name, listing metadata; slowly changing attributes if available"
+DimSector,sector_key,sector_key,GICS sector and classification version
+DimBenchmark,benchmark_key,benchmark_key,"^GSPC, price basis and currency metadata"
+DimRun,run_id,run_id,"Source URL, retrieval UTC, task1 code version, software, lookbacks, observation date, exclusions"
+DimModel,model_key,model_key,"Ward/KMeans, feature set, k, seed, scaler, PCA parameters"
+FactDailyQuote,share_key+date_key+run_id,share_key; date_key; run_id,"OHLC, AdjClose, volume, dividends, splits, estimated traded value"
+FactWeeklyReturn,share_key+week_end_date_key+run_id,share_key; week_end_date_key; benchmark_key; run_id,"Weekly share and benchmark returns, paired-week flag"
+FactShareFeature,share_key+observation_date_key+run_id,share_key; observation_date_key; run_id,"MeanWeeklyReturn, WeeklyBeta, alignedWeeks, R, F, M_USD, high-volume cutoff"
+FactClusterAssignment,share_key+run_id+model_key,share_key; run_id; model_key,"Cluster ID, silhouette diagnostics; cluster IDs are not rankings"

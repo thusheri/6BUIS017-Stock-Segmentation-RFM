@@ -1,0 +1,9 @@
+{
+  "FixedWardK": 2,
+  "WardRFMWithoutMonetaryARI": 0.7896445073636957,
+  "RvsF": -0.3460678188999796,
+  "RvsLogM": 0.1530952879367144,
+  "FvsLogM": 0.0128399069258136,
+  "LabelAlignedChangedN": 24,
+  "Warning": "Feature correlations can overemphasise shared activity but do not independently prove dominance."
+}

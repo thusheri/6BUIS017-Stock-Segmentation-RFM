@@ -1,0 +1,6 @@
+Stage,Source,Grain
+Historical market acquisition,Wikipedia constituent snapshot and Yahoo Finance ^GSPC and OHLCV,ticker × trading date
+Validated share universe,Task 1 exclusions and validation audit,ticker × study run
+Features,Task 1 weekly returns/beta and RFM feature table,ticker × observation date × run
+Clustering,Task 2 four assignments and model k diagnostics,ticker × model × run
+BI review,"Task 3 sector composition, profile and sensitivity views",sector × cluster × model × run

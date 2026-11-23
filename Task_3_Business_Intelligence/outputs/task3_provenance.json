@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-11-23T06:57:36.630268+00:00",
+  "input_task2_zip": "task2_outputs.zip",
+  "input_task2_sha256": "cd4990e790be6abeeddd16eaf49320aa175d181f1546cb9385d4374c17bea69a",
+  "share_count": 489,
+  "sector_count": 11,
+  "selected_k": [
+    {
+      "FeatureSet": "RiskReturn",
+      "Algorithm": "Ward",
+      "SelectedK": 5,
+      "Silhouette": 0.3119723849639056,
+      "MinimumClusterSize": 36,
+      "FallbackUsed": false
+    },
+    {
+      "FeatureSet": "RiskReturn",
+      "Algorithm": "KMeans",
+      "SelectedK": 2,
+      "Silhouette": 0.385759157376117,
+      "MinimumClusterSize": 144,
+      "FallbackUsed": false
+    },
+    {
+      "FeatureSet": "RFM",
+      "Algorithm": "Ward",
+      "SelectedK": 2,
+      "Silhouette": 0.4029956944540966,
+      "MinimumClusterSize": 96,
+      "FallbackUsed": false
+    },
+    {
+      "FeatureSet": "RFM",
+      "Algorithm": "KMeans",
+      "SelectedK": 2,
+      "Silhouette": 0.4156511672193751,
+      "MinimumClusterSize": 102,
+      "FallbackUsed": false
+    }
+  ],
+  "ari_removing_monetary": 0.7896445073636957,
+  "python": "3.13.18",
+  "design_status": "proposed logical data mart; not deployed",
+  "caution": "descriptive comparisons, not investment forecasts"
+}

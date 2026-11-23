@@ -1,0 +1,5 @@
+Stakeholder,Question,BI view,Limit
+Investment analyst,How do historical return and beta clusters differ?,"Original-unit risk/return profiles, cluster-size and overlap",Beta alone is not portfolio diversification
+Fintech BI analyst,Which securities show unusually recent/frequent high-volume activity?,"RFM cluster, sector mix, 20/60 session definitions","RFM is share activity, not customer loyalty"
+Both,Are classifications stable when Monetary is removed?,"ARI, aligned share moves, traded-value profiles",Close × Volume is an approximate liquidity proxy
+Data governance,Can a historical run be reproduced?,"Source hashes, run dates, exclusions, model version",Source corporate-action anomalies need human validation
