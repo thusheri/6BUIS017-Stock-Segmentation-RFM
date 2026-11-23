@@ -1,0 +1,3 @@
+Ticker,ZeroVolumeRowsFlagged,OriginalAlignedWeeks,ZeroVolumeMaskedAlignedWeeks,OriginalMeanWeeklyReturn,ZeroVolumeMaskedMeanWeeklyReturn,OriginalWeeklyBeta,ZeroVolumeMaskedWeeklyBeta,OriginalRecency,ZeroVolumeMaskedRecency,OriginalFrequency,ZeroVolumeMaskedFrequency,OriginalM_USD,ZeroVolumeMaskedM_USD,ZeroVolumeMasked_RFM_Status
+SW,424,207,183,0.002804647208307715,0.004442483366965627,1.104225028920366,1.1243923854809303,11.0,11,3.0,3,11126580457.413483,11126580457.413483,Valid
+FERG,27,207,207,0.0029644358561349126,0.0029644358561349126,0.9274255334906456,0.9274255334906456,21.0,21,2.0,2,18249866360.37445,18249866360.37445,Valid

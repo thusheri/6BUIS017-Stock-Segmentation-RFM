@@ -1,0 +1,11 @@
+Ticker,Issue,ObservedEvidence,Disposition,ModelImpact
+SW,Zero-volume observation(s),424 zero-volume rows; final60=0; final80=0,Flagged for manual source verification; not presumed an actual zero-trade session,Sensitivity measured below; original baseline retained
+FERG,Zero-volume observation(s),27 zero-volume rows; final60=0; final80=0,Flagged for manual source verification; not presumed an actual zero-trade session,Sensitivity measured below; original baseline retained
+BE,Adjusted daily return > 50%,2024-11-15: +59.19%,"Review vendor adjustment, announcements and corporate actions before assigning cause",Audit only; no arbitrary outlier deletion
+CVNA,Adjusted daily return > 50%,2023-06-08: +56.02%,"Review vendor adjustment, announcements and corporate actions before assigning cause",Audit only; no arbitrary outlier deletion
+GL,Adjusted daily return > 50%,2024-04-11: -53.14%,"Review vendor adjustment, announcements and corporate actions before assigning cause",Audit only; no arbitrary outlier deletion
+HOOD,Adjusted daily return > 50%,2021-08-04: +50.41%,"Review vendor adjustment, announcements and corporate actions before assigning cause",Audit only; no arbitrary outlier deletion
+ANET,Split event within final60 sessions,2024-12-04: reported split ratio=4.0,Check close/volume price basis and document approximation,Flagged; do not mistake turnover estimate for executed transaction ledger
+ETR,Split event within final60 sessions,2024-12-13: reported split ratio=2.0,Check close/volume price basis and document approximation,Flagged; do not mistake turnover estimate for executed transaction ledger
+PANW,Split event within final60 sessions,2024-12-16: reported split ratio=2.0,Check close/volume price basis and document approximation,Flagged; do not mistake turnover estimate for executed transaction ledger
+TSCO,Split event within final60 sessions,2024-12-20: reported split ratio=5.0,Check close/volume price basis and document approximation,Flagged; do not mistake turnover estimate for executed transaction ledger

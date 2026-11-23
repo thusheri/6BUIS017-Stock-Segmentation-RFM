@@ -1,0 +1,20 @@
+{
+  "QA_run_utc": "2026-11-23T06:16:49.164790+00:00",
+  "frozen_snapshot_used": true,
+  "source_zip_sha256": "1b457c7326f4ce3f35f6410057ea3655c5d06ffe7ae8242f1ac6c5072425aa0d",
+  "data_period_start_inclusive": "2021-01-01",
+  "data_period_end_exclusive": "2025-01-01",
+  "benchmark": "^GSPC",
+  "daily_coverage_minimum": 0.95,
+  "minimum_aligned_weekly_returns": 52,
+  "package_versions": {
+    "pandas": "2.2.3",
+    "numpy": "2.2.6",
+    "requests": "2.32.4",
+    "matplotlib": "3.10.0",
+    "scipy": "1.16.3",
+    "yfinance": "0.2.66",
+    "python": "3.13.18"
+  },
+  "note": "Separate QA execution time from source acquisition timestamp. Never overwrite the original provenance."
+}
